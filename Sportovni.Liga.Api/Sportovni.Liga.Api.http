@@ -1,0 +1,16 @@
+@Sportovni.Liga.Api_HostAddress = http://localhost:5203
+
+GET {{Sportovni.Liga.Api_HostAddress}}/api/teams
+Accept: application/json
+
+###
+
+@id=1
+GET {{Sportovni.Liga.Api_HostAddress}}/api/teams/{{id}}
+
+###
+
+@id=4
+GET {{Sportovni.Liga.Api_HostAddress}}/api/teams/{{id}}
+
+###
